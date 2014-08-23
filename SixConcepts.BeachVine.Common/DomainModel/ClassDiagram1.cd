@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SixConcepts.BeachVine.DomainModel.Listing">
+    <Position X="1.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>gACCBMACAAAgAAoQAQIAAAAAIAgAABACCQACAABAIBA=</HashCode>
+      <FileName>DomainModel\Listing.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Address" />
+      <Property Name="Coordinates" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Amenities" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="SixConcepts.BeachVine.DomainModel.ListingAmenity">
+    <Position X="8.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainModel\ListingAmenity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SixConcepts.BeachVine.DomainModel.Image">
+    <Position X="6.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAEAAAAAAAAAAEAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>DomainModel\Image.cs</FileName>
+      <NewMemberFileName>DomainModel\ListingImage.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SixConcepts.BeachVine.DomainModel.Coordinates" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAIgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DomainModel\Coordinates.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SixConcepts.BeachVine.DomainModel.Bedroom" Collapsed="true">
+    <Position X="6" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAABAAAQAAAAAAAAA=</HashCode>
+      <FileName>DomainModel\Bedroom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SixConcepts.BeachVine.DomainModel.Address" Collapsed="true">
+    <Position X="6.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAOAAAAAAAIEAIAAAIggAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>DomainModel\Address.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SixConcepts.BeachVine.DomainModel.RentalRateSnapshot" Collapsed="true">
+    <Position X="6.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAQAIAQAAgAAAAAAAAgAEAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>DomainModel\RentalRate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
